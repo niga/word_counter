@@ -1,0 +1,18 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Vyacheslav Rasskazov",
+      "email": "nigasam@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": ["src/helpers.php"]
+  },
+  "require": {
+    "phpunit/phpunit": "7.5.0",
+    "ext-mbstring": "*"
+  }
+}
